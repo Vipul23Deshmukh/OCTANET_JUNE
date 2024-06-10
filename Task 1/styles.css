@@ -1,0 +1,295 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0e0202;
+}
+
+.header {
+    background-color: #f1ecf1;
+    color: rgb(2, 2, 2);
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    color: rgb(17, 15, 15);
+    text-decoration: none;
+}
+
+.hero {
+    background: url('activity1.jpg') no-repeat center center/cover;
+    color: rgb(20, 18, 18);
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .cta-button {
+    background-color: #ef2a15;
+    color: rgb(236, 243, 236);
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero .cta-button:hover {
+    background-color: #150301;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about, .activities, .schedule, .contact, .highlights {
+    padding: 60px 0;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.activity {
+    text-align: center;
+    max-width: 200px;
+}
+
+.activity img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.schedule ul {
+    list-style: none;
+    padding: 0;
+}
+
+.schedule ul li {
+    margin-bottom: 10px;
+}
+
+.highlights {
+    background: url('highlights-bg.jpg') no-repeat center center/cover;
+    color: rgb(242, 249, 245);
+    text-align: center;
+    padding: 100px 0;
+}
+
+.highlights .highlight {
+    margin: 20px 0;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin: 10px 0 5px;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #fa0ac6;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #2980b9;
+}
+
+.footer {
+    background-color: #deefe2;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    padding: 20px 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 20px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('adventure-bg1.jpeg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero .cta-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.hero .cta-button:hover {
+    background-color: #c0392b;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about, .activities, .schedule, .contact, .highlights {
+    padding: 60px 0;
+}
+
+.activities-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.activity {
+    text-align: center;
+    max-width: 200px;
+}
+
+.activity img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.schedule-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.schedule-item {
+    background: #f1ecc1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.schedule-item:hover {
+    transform: translateY(-10px);
+}
+
+.schedule-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form label {
+    margin: 10px 0 5px;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact form button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #2980b9;
+}
+
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
